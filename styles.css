@@ -129,19 +129,28 @@ h1 {
 .whatsapp-link {
     position: absolute;
     bottom: 10px;
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translateX(-50%); /* Ajusta a centralização exata */
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #25D366;
     color: white;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
-    z-index: 10; /* Garante que o link fique acima do vídeo */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .whatsapp-link:hover {
     background-color: #128C7E;
+}
+
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
 }
 
 .ticker {
