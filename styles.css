@@ -129,7 +129,7 @@ h1 {
 .whatsapp-link {
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    center: 10px;
     background-color: #25D366;
     color: white;
     padding: 10px;
