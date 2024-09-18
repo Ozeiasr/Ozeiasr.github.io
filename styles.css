@@ -130,12 +130,14 @@ h1 {
     position: absolute;
     bottom: 10px;
     left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a centralização exata */
     background-color: #25D366;
     color: white;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
+    z-index: 10; /* Garante que o link fique acima do vídeo */
 }
 
 .whatsapp-link:hover {
