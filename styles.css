@@ -16,7 +16,6 @@ h1 {
     margin: 20px;
     color: #333;
 }
-
 .container {
     display: flex;
     flex-direction: row;
@@ -24,6 +23,11 @@ h1 {
     padding: 20px;
     max-width: 1920px;
     margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Garante que os elementos se reorganizem em telas menores */
 }
 
 .left-side {
@@ -68,6 +72,15 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
 }
+.container {
+    width: 100%;
+    padding: 2%;
+}
+
+.contact-form input {
+    width: 90%; /* Em vez de definir uma largura fixa */
+}
+
 
 .contact-form h2 {
     margin-top: 0;
@@ -192,6 +205,11 @@ h1 {
     .contact-form input, .contact-form textarea {
         width: 100%;
     }
+    img {
+    max-width: 100%;
+    height: auto;
+}
+
 }
 
 @media (max-width: 768px) {
